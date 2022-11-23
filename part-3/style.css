@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+.buttondiv {
+    display: block;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.pokeBtn {
+    height: 40px;
+    background-color: rgb(161, 44, 15);
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+#pokemon {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    padding: 0;
+}
+.pokeDiv {
+    height: auto;
+    width: 300px;
+    background-color:rgb(62, 108, 161);
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+.pokeName {
+    font-size: 25px;
+}
+
