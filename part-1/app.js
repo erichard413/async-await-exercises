@@ -27,7 +27,7 @@ async function getFacts(url) {
 btn.addEventListener("click", function(e) {
     e.preventDefault()
     let favNum = numInput.value
-    let baseURL = `http://numbersapi.com/${favNum}?json`
+    let baseURL = `https://numbersapi.com/${favNum}?json`
     getFacts(baseURL)   
 })
 
